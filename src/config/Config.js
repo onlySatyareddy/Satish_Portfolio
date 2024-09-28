@@ -1,10 +1,17 @@
 export const config = {
     // <--------------------  Home section  ----------------------->
-    resumeLink: "https://1drv.ms/b/c/5a787eb99fae35c6/EccVR3gDCxFPkUIKZ3ap5osBiPX7rWvVwDarHd-iBHTTPg?e=brbiWR",
+    resumeLink: "https://drive.google.com/file/d/1M17cDnUNxN18OyhGUbyqtOvELqHQ1w98/view?usp=drive_link",
     gitHubUrl: "https://github.com/onlySatyareddy",
     gfgUrl: "",
   
-  
+  // assets/images/index.js
+
+
+
+
+
+
+
     workExperience: [
       {
         name: "Shreeji InfoSoft 2023",
@@ -58,27 +65,47 @@ export const config = {
   
     // <------------------------  about section     ------------------->
     mySkills: [
-      "Core java",
+      "java",
+      "J2EE",
+      "Spring",
+      "Python",
       "HTML",
       "CSS",
       "JavaScript",
       "Bootstrap",
       "React Js",
-      "Jquery",
+      "Redux",
       "Node Js",
       "MongoDb",
       "Express JS",
       "Ejs",
-      "SQL"
+      "SQL",
+      "Oracle",
+      "AWS"
+
+
     ],
   
     // <------------------------  portfolio section  ------------------->
     
     // <------------------------  portfolio section  ------------------->
+// assets/images/index.js
+
+
+
+
+
+
+
+
+
+
     portfolio: [
+
+    
       {
         projectName: "Hotem-Website",
-        logo: "tutorial_routes.png",
+        logo: require('../assets/imgages/hotel.jpg'),
         projectQuote: "Hotel Resource Web App",
         gitHub: "https://github.com/onlySatyareddy/Hotel-Website.git",
         //deployment: " ",
@@ -102,7 +129,7 @@ export const config = {
       },
       {
         projectName: "Mymobiforce",
-        logo: "drum_kit.png",
+        logo: require('../assets/imgages/bussiness.jpeg'),
         projectQuote: "Supercharge Your Business with MyMobiForce ",
         gitHub: "https://github.com/onlySatyareddy/Mymobiforce.git",
         deployment: "",
@@ -121,10 +148,10 @@ export const config = {
         ],
       },
       {
-        projectName: "Game",
-        logo: "",
-        projectQuote: "A Fun and Engaging Dice Game",
-        gitHub: "",
+        projectName: "E-Commerce",
+        logo: require('../assets/imgages/jewelry.png'),
+        projectQuote: "e-commerce platform Jewellery",
+        gitHub: "https://github.com/onlySatyareddy/Cristal-Website",
         deployment: "",
         skillsUsed: [
           "HTML",
@@ -132,17 +159,17 @@ export const config = {
           "JavaScript",
         ],
         points: [
-          "Developed an interactive dice game using HTML, CSS, and JavaScript for entertainment and thrill.",
-          "Game alternates as players roll a virtual dice, generating random numbers.",
+          "Developed an interactive e-commerce platform Jewellery using HTML, CSS, and JavaScript for entertainment and thrill.",
+          "Product Categories Organized multiple product categories for easy browsing",
           "App applies game rules, identifying round winners.",
           "User-friendly design with HTML and CSS.",
-          "JavaScript manages random dice numbers, game rules, and declaring winners.",
+          "User-Friendly Navigation: Designed intuitive navigation to enhance user experience",
         ],
       },
       {
-        projectName: " Cart",
-        logo: "",
-        projectQuote: "React Amazon-like Add to Cart Feature",
+        projectName: "Food Delivery Application",
+        logo: require('../assets/imgages/food-delivery.png'),
+        projectQuote: "React Food Delivery Add to Cart Feature",
         gitHub: "",
         deployment: "",
         skillsUsed: [
@@ -150,8 +177,11 @@ export const config = {
           "CSS",
           "JavaScript",
           "React",
+          "Redux"
         ],
         points: [
+          "Developed a food delivery application using React.js with an intuitive UI to enhance user engagement.",
+          "Created a contact form for inquiries and designed a card-based UI for easy browsing and customization of menu items.",
           "The website will allow users to browse a curated list of products and easily add items to their virtual cart.",
           "The project leverages React for building a dynamic user interface, JavaScript for handling the interactive aspects, and HTML for structuring the webpage.",
           "Design a dedicated section to show the items that have been added to the cart. Display the product details, quantities, and calculated subtotal.",
@@ -160,8 +190,8 @@ export const config = {
         ],
       },
       {
-        projectName: "",
-        logo: "online_book_store.png",
+        projectName: "Book Store",
+        logo: require('../assets/imgages/online_book_store.6cac0b4bf4a7a19172ce.png'),
         projectQuote: "The Online Book Store Website project is aimed at creating a user-friendly and visually appealing platform for purchasing books from different departments.",
         gitHub: "",
         deployment: "",

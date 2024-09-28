@@ -1,4 +1,5 @@
 import React from "react";
+
 import { config } from "../config/Config";
 import { Link } from "react-router-dom";
 
@@ -24,10 +25,11 @@ export default function Portfolio() {
             {/* project logo and title */}
             <div className="d-flex align-items-center">
               <img
-                
+                 src={item.logo}
 
                 alt="logo"
-                height="50px"
+                height="60px"
+                width="60px"
                 className="me-1"
               />
               <span className="h2 openSans text-warning">
